@@ -1,0 +1,14 @@
+galaxy_info:
+  author: Efalia R&D
+  role_name: unoserver
+  description: Installation de unoserver
+  company: Efalia
+
+  license: MIT
+
+  min_ansible_version: 2.1
+  platforms:
+  - name: Debian
+    versions:
+      - all
+dependencies: []
