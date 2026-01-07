@@ -6,6 +6,6 @@
       - python3-pip
 - name: Installation de Unoserver (en local depuis ce rôle) pour la conversion des fichiers Office en PDF
   pip:
-    name: "file://{{ role_path }}/files/unoserver-2.0-py3-none-any.whl"
+    name: "file://{{ role_path }}/files/unoserver-3.6-py3-none-any.whl"
     executable: pip3
     extra_args: --break-system-packages
